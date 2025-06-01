@@ -1,7 +1,6 @@
 # play_integrity
 A Step-by-Step Guide to Pass Play Integrity
 
----
 ## 🧰 Requirements
 
 ### Rooted Device
