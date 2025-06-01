@@ -10,19 +10,19 @@ A Step-by-Step Guide to Pass Play Integrity
 
 ### Required Magisk Modules
 
-* [✅ Zygisk Next](https://github.com/Dr-TSNG/ZygiskNext/releases)
-* [✅ PIF (Play Integrity Fix)](https://github.com/chiteroman/PlayIntegrityFix/releases)
-* [✅ TrickyStore](https://github.com/5ec1cff/TrickyStore/releases)
-* [✅ Shamiko (optional but helpful)](https://github.com/LSPosed/LSPosed.github.io/releases)
+* [Zygisk Next](https://github.com/Dr-TSNG/ZygiskNext/releases)
+* [PIF (Play Integrity Fix)](https://github.com/chiteroman/PlayIntegrityFix/releases)
+* [TrickyStore](https://github.com/5ec1cff/TrickyStore/releases)
+* [Shamiko (optional but helpful)](https://github.com/LSPosed/LSPosed.github.io/releases)
 
 ### Keybox Providers (Choose One)
 
-* 🔹 [TSupport Advance (recommended)](https://t.me/CitraIntegrityTrick)
-* 🔹 [Integrity Box](https://github.com/MeowDump/Integrity-Box) – supports **Strong Integrity**
+* [TSupport Advance (recommended)](https://t.me/CitraIntegrityTrick)
+* [Integrity Box](https://github.com/MeowDump/Integrity-Box) – supports **Strong Integrity**
 
 ### Testing App
 
-* 📲 [Play Integrity API Checker](https://play.google.com/store/apps/details?id=gr.nikolasspyr.integritycheck&hl=en)
+* [Play Integrity API Checker](https://play.google.com/store/apps/details?id=gr.nikolasspyr.integritycheck&hl=en)
 
 ---
 
@@ -51,8 +51,8 @@ A Step-by-Step Guide to Pass Play Integrity
 1. Open **ZArchiver**.
 2. Go to `Settings > ROOT` and enable:
 
-   * ✅ File operations
-   * ✅ Fix SELinux content
+   * File operations
+   * Fix SELinux content
 3. Grant **root access** to ZArchiver.
 4. Navigate to the path:
 
@@ -86,7 +86,3 @@ You should pass:
 
 * Update it periodically
 * Recheck your Play Integrity status regularly
-
----
-
-Let me know if you want this as a downloadable file or converted to PDF/HTML!
