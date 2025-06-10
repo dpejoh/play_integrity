@@ -60,8 +60,6 @@ A Step-by-Step Guide to Pass Play Integrity
 
 ### 3. Reboot your device after flashing the modules.
 
----
-
 ## Configuring Tricky Store
 
 ### With TSupport Advance
@@ -95,7 +93,7 @@ After rebooting:
 
 > You must put a **valid keybox** or at least one that can get you **device integrity**, like the **AOSP keybox**.
 > For the **target file**, you can customize it using a text editor or **KSUWebUI**.
----
+
 ## PIF Manual Inject
 
 - If you can't get at least **Basic integrity**, try the `PIF Manual Inject` module, here are the steps:
