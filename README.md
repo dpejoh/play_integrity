@@ -10,8 +10,10 @@ A Step-by-Step Guide to Pass Play Integrity
 ### Required Magisk Modules
 
 * [Zygisk Next](https://github.com/Dr-TSNG/ZygiskNext/releases)
-* [PIF (Play Integrity Fix)](https://github.com/chiteroman/PlayIntegrityFix/releases)
+* ~~[PIF (Play Integrity Fix)](https://github.com/chiteroman/PlayIntegrityFix/releases)~~ **Discontinuted**
+* [PIF Fork](https://github.com/osm0sis/PlayIntegrityFork)
 * [TrickyStore](https://github.com/5ec1cff/TrickyStore/releases)
+* [Tricky Store Addon](https://github.com/KOWX712/Tricky-Addon-Update-Target-List) Required for **KSU**, helpful for **Magisk**
 * [Shamiko (optional but helpful)](https://github.com/LSPosed/LSPosed.github.io/releases)
 
 ### Keybox Providers (Choose One)
@@ -19,10 +21,10 @@ A Step-by-Step Guide to Pass Play Integrity
 * [TSupport Advance (recommended)](https://t.me/CitraIntegrityTrick)
 * [Integrity Box](https://github.com/MeowDump/Integrity-Box) – supports **Strong Integrity**
 
-### Testing App
+### Apps
 
 * [Play Integrity API Checker](https://play.google.com/store/apps/details?id=gr.nikolasspyr.integritycheck&hl=en)
-
+* [KSUWebUI](https://github.com/5ec1cff/KsuWebUIStandalone) For **TS Addon**
 ---
 
 ## 🛠️ Steps
@@ -33,17 +35,30 @@ A Step-by-Step Guide to Pass Play Integrity
 
 ### 2. Flash the Magisk Modules (In This Order)
 
-1. `Play Integrity Fix (PIF)`
-2. `Shamiko` *(optional but recommended)*
-3. `TrickyStore`
-4. `TSupport Advance` or `Integrity Box`
+1. `Zygisk Next`
+2. `PIF` or `PIF Fork`
+3. `Shamiko` *(optional but recommended)*
+4. `TrickyStore`
+5. `TSupport Advance` or `Integrity Box`
 
-> **Reboot your device after flashing the modules.**
-> Let all modules initialize properly after rebooting.
-
+### 3. Reboot your device after flashing the modules.
 ---
 
-## ⚙️ Configuring Tricky Store
+## Configuring Tricky Store
+
+### With TSupport Advance
+
+After rebooting:
+
+- Open **Magisk**.
+- Click on **Actions**.
+- Select **EBox Updater**.
+- Let it set a **Keybox** for you.
+- Set `spoofvendingsdk` to `true`.
+
+> ⚠️ Note: This step may not work in the future, but for now, it works to get integrity.
+
+### Manually
 
 > Only required if you didn't install **TSupport Advance** or **Integrity Box**.
 
@@ -63,9 +78,11 @@ A Step-by-Step Guide to Pass Play Integrity
    * `target.txt`
    * `keybox.xml`
 
+> You must put a **valid keybox** or at least one that can get you **device integrity**, like the **AOSP keybox**.
+> For the **target file**, you can customize it using a text editor or **KSUWebUI**.
 ---
 
-## ✅ Check Integrity Status
+## Check Integrity Status
 
 1. Open the **Play Integrity API Checker** app.
 2. Tap **"Check"**.
