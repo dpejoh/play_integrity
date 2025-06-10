@@ -100,7 +100,7 @@ After rebooting:
 1. Install the **module**
 2. In `KSUWebUI`, choose `Play Integrity Fix [INJECT]`.
 3. Turn on `Spoof sdk version to Play Store`
-4. You can also turn on other **spoof** options, but you don't have to.
+4. You can also turn on other **spoofing** options, but you don't always have to.
 
 ---
 
