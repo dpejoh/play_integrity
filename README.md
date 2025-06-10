@@ -68,25 +68,20 @@ After rebooting:
 
 > Only required if you didn't install **TSupport Advance** or **Integrity Box**.
 
-1. Open **ZArchiver**.
-2. Go to `Settings > ROOT` and enable:
-
-   * File operations
-   * Fix SELinux content
-3. Grant **root access** to ZArchiver.
-4. Navigate to the path:
+1. Use a file manager that supports root file operations like **ZArchiver** or **MT Manager**
+2. Navigate to the path:
 
    ```
    /data/adb/tricky_store
    ```
-5. Replace or edit the following files:
+3. Replace or edit the following files:
 
    * `target.txt`
    * `keybox.xml`
 
 ### Alternaltive method
 
-- Update the **keybox** and the **target list** using `TrickyAddon` in `KSUWebUI`
+- Update the **keybox** and the **target list** using `Tricky Store Addon` in `KSUWebUI`
 
 > You must put a **valid keybox** or at least one that can get you **device integrity**, like the **AOSP keybox**.
 > For the **target file**, you can customize it using a text editor or **KSUWebUI**.
