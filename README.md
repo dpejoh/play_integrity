@@ -13,6 +13,8 @@ A Step-by-Step Guide to Pass Play Integrity
 
 - Some people suggest changing your **Play Store** to an older version (below v46) or using a modified one. I don't recommend this. You can't know if a modded version is safe or not. If you still want to try these methods, be very careful because there are risks. For more info, you might want to check out [Yuri's Telegram channel](https://t.me/yuriiroot).
 
+---
+
 ## Requirements
 
 * Rooted device
@@ -23,6 +25,7 @@ A Step-by-Step Guide to Pass Play Integrity
 * [Zygisk Next](https://github.com/Dr-TSNG/ZygiskNext/releases)
 * ~~[PIF (Play Integrity Fix)](https://github.com/chiteroman/PlayIntegrityFix/releases)~~ - **Discontinuted**
 * [PIF Fork](https://github.com/osm0sis/PlayIntegrityFork)
+* [PIF Manual Inject](https://github.com/KOWX712/PlayIntegrityFix/releases) For turning on **SpoofVendingSDK**
 * [TrickyStore](https://github.com/5ec1cff/TrickyStore/releases)
 * [Tricky Store Addon](https://github.com/KOWX712/Tricky-Addon-Update-Target-List) - Required for **KSU**, helpful for **Magisk**
 * [TSupport Advance](https://t.me/CitraIntegrityTrick) - sets up a **fingerprint** and a **keybox** and some other stuff for you. However, if it doesn't work, you'll need to find a different keybox.
@@ -36,6 +39,7 @@ A Step-by-Step Guide to Pass Play Integrity
 
 * [Play Integrity API Checker](https://play.google.com/store/apps/details?id=gr.nikolasspyr.integritycheck&hl=en)
 * [KSUWebUI](https://github.com/5ec1cff/KsuWebUIStandalone) - For `TS Addon`
+
 ---
 
 ## Steps
@@ -91,6 +95,15 @@ After rebooting:
 
 > You must put a **valid keybox** or at least one that can get you **device integrity**, like the **AOSP keybox**.
 > For the **target file**, you can customize it using a text editor or **KSUWebUI**.
+---
+## PIF Manual Inject
+
+- If you can't get at least **Basic integrity**, try the `PIF Manual Inject` module, here are the steps:
+1. Install the **module**
+2. In `KSUWebUI`, choose `Play Integrity Fix [INJECT]`.
+3. Turn on `Spoof sdk version to Play Store`
+4. You can also turn on other **spoof** options, but you don't have to.
+
 ---
 
 ## Check Integrity Status
