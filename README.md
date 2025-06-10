@@ -9,9 +9,7 @@ A Step-by-Step Guide to Pass Play Integrity
 
 ## Requirements
 
-### Rooted Device
-
-* Must be rooted using **Magisk**
+* Rooted device
 * Must have a **valid keybox**
 
 ### Required Magisk Modules
