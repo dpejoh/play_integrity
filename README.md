@@ -34,7 +34,6 @@ A Step-by-Step Guide to Pass Play Integrity
 * [TrickyStore](https://github.com/5ec1cff/TrickyStore/releases)
 * [Tricky Store Addon](https://github.com/KOWX712/Tricky-Addon-Update-Target-List) - Required for **KSU**, helpful for **Magisk**
 * [TSupport Advance](https://t.me/CitraIntegrityTrick) - sets up a **fingerprint** and a **keybox** and some other stuff for you. However, if it doesn't work, you'll need to find a different keybox.
-* [Shamiko](https://github.com/LSPosed/LSPosed.github.io/releases)
 
 ### Optional
 * [BetterKnownInstalled](https://github.com/Pixel-Props/BetterKnownInstalled) - For solving **UNKNOWN_INSTALLED** issue
@@ -56,20 +55,12 @@ A Step-by-Step Guide to Pass Play Integrity
 
 1. `Zygisk Next`
 2. `PIF Fork`
-3. `Shamiko`
-4. `TrickyStore`
-5. `Tricky Store Addon`
-6. `TSupport Advance` or `Integrity Box` (don't install them in the same time)
-7. In `TSupport Advance`, the **FP updater** script will run first. If you're new to the configuration or unsure, select "yes" for all options.
+3. `TrickyStore`
+4. `Tricky Store Addon`
+5. `TSupport Advance` or `Integrity Box` (don't install them in the same time)
+- In `TSupport Advance`, the **FP updater** script will run first. If you're new to the configuration or unsure, select "yes" for all options.
 
 ### 3. Reboot your device after flashing the modules.
-
-### 4. Hiding Magisk and Root (for Magisk users only)
-
-- Go to `Magisk` settings.
-- Click on `Hide the Magisk app`.
-- Select `Configure DenyList`.
-- Check `Google Play Services`, `Google Play Store` and `Google Services Framework` and any app you want to hide root from it.
 
 ### Required if you installed TSupport Advance
 
