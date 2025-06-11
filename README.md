@@ -9,7 +9,7 @@ A Step-by-Step Guide to Pass Play Integrity
 
 ## Very Important To Know
 
-- A **valid keybox** is very hard to find. A few people might try to sell them, but most are **scammers** or they'll sell you a leaked one that Google quickly blocks. So, to get integrity now, you usually need to use **spoofing**. You can do this with `TSupport Advance`, `PIF Inject`, or **manually**. Just know that spoofing doesn't always guarantee any type of integrity. Sometimes you might get **Basic** and other times **Strong**, even with the same setup. You'll likely need to try many times until it works.
+- A **valid keybox** is very hard to find. A few people might try to sell them, but most are **scammers** or they'll sell you a leaked one that Google quickly blocks. So, to get integrity now, you usually need to use **spoofing**. You can do this with `PIF Inject`, `TSupport Advance`, or **manually**. Just know that spoofing doesn't always guarantee any type of integrity. Sometimes you might get **Basic** and other times **Strong**, even with the same setup. You'll likely need to try many times until it works.
 
 - Some people suggest changing your **Play Store** to an older version (below v46) or using a modified one. I don't recommend this. You can't know if a modded version is safe or not. If you still want to try these methods, be very careful because there are risks. For more info, you might want to check out [Yuri's Telegram channel](https://t.me/yuriiroot).
 
