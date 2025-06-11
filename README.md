@@ -6,6 +6,8 @@ A Step-by-Step Guide to Pass Play Integrity
 
 - This guide changes often, so it might not always work perfectly for you. If you hit a problem, you might need to do a little extra searching online.
 - Google removed the old SafetyNet checks. Now, to get Strong Integrity, you need a **valid keybox**.
+- Strong integrity isn't everything, Try at least to achieve **basic integrity**
+- To get your banking apps to work you need first to **hide root** and **spoof bootloader**, then hide **suspicious apps** and **custom roms traces** if you use them, then **play integrity comes**, Read that [post](https://www.reddit.com/r/Magisk/comments/1jduuq2/discussion_dont_be_an_app_detector_and_play/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) on **Reddit**
 
 ## Very Important To Know
 
@@ -34,7 +36,7 @@ A Step-by-Step Guide to Pass Play Integrity
 
 ### Optional
 * [BetterKnownInstalled](https://github.com/Pixel-Props/BetterKnownInstalled) - For solving **UNKNOWN_INSTALLED** issue
-* [Integrity Box](https://github.com/MeowDump/Integrity-Box) – For getting a valid keybox and the **Strong Integrity**
+* [Integrity Box](https://github.com/MeowDump/Integrity-Box) – It provides a **valid keybox**
 
 ### Apps
 
@@ -66,8 +68,7 @@ A Step-by-Step Guide to Pass Play Integrity
 - Go to `Magisk` settings.
 - Click on `Hide the Magisk app`.
 - Select `Configure DenyList`.
-- Check `Google Play Services`and `Google Play Store`.
-- In the future, check any app that requires hiding root here.
+- Check `Google Play Services`, `Google Play Store` and `Google Services Framework` and any app you want to hide root from it.
 
 ### Required if you installed TSupport Advance
 
@@ -85,8 +86,9 @@ A Step-by-Step Guide to Pass Play Integrity
 ### With Tricky Addon (Easy)
 
 - Update the **keybox** and the **target list** using `Tricky Store Addon` in `KSUWebUI`.
-- For apps, check them and click on `Save`.
-- For keybox, click on the menu button next to the search bar and click on `Custom keybox`.
+- For apps, check `Google Play Services`, `Google Play Store` and `Google Services Framework` and any app you want to hide root from it, then click on `Save`.
+- For keybox, click on the menu button next to the search bar and click on `Custom keybox`, then select a **valid keybox** from your **internal storage**.
+- For security patch, click on the menu button and `Get Security Patch Date`, then click on `Save`
 
 ### Manually
 
