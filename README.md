@@ -102,7 +102,7 @@ A Step-by-Step Guide to Pass Play Integrity
 2. In `KSUWebUI`, choose `Play Integrity Fix [INJECT]`.
 3. Click on `Fetch pif.json`
 4. Turn on `Spoof sdk version to Play Store`
-5. You can also turn on other **spoof** options, but you don't have to.
+5. You can also turn on other **spoofing** options, but you don't always have to.
 
 ## Tweaking Play Store (Credits to [Yuri](https://t.me/yuriiroot))
 
