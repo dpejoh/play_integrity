@@ -5,7 +5,7 @@ A Step-by-Step Guide to Pass Play Integrity
 ## For Newbies
 
 - This guide changes often, so it might not always work perfectly for you. If you hit a problem, you might need to do a little extra searching online.
-- Google removed the old SafetyNet checks. Now, to get Strong Integrity, you need a **valid keybox**
+- Google removed the old SafetyNet checks. Now, to get Strong Integrity, you need a **valid keybox**.
 
 ## Very Important To Know
 
@@ -17,15 +17,16 @@ A Step-by-Step Guide to Pass Play Integrity
 
 ## Requirements
 
-* Rooted device
-* Must have a **valid keybox**
+* Rooted device.
+* Must have a **valid keybox**.
+* A clean base, without other spoofing modules like `google photos unlimited storage` and **root hiding**.
 
 ### Required Magisk Modules
 
 * [Zygisk Next](https://github.com/Dr-TSNG/ZygiskNext/releases)
 * ~~[PIF (Play Integrity Fix)](https://github.com/chiteroman/PlayIntegrityFix/releases)~~ - **Discontinuted**
 * [PIF Fork](https://github.com/osm0sis/PlayIntegrityFork)
-* [PIF Manual Inject](https://github.com/KOWX712/PlayIntegrityFix/releases) For turning on **SpoofVendingSDK**
+* [PIF Inject Manual](https://github.com/KOWX712/PlayIntegrityFix/releases) For turning on **SpoofVendingSDK**
 * [TrickyStore](https://github.com/5ec1cff/TrickyStore/releases)
 * [Tricky Store Addon](https://github.com/KOWX712/Tricky-Addon-Update-Target-List) - Required for **KSU**, helpful for **Magisk**
 * [TSupport Advance](https://t.me/CitraIntegrityTrick) - sets up a **fingerprint** and a **keybox** and some other stuff for you. However, if it doesn't work, you'll need to find a different keybox.
@@ -56,70 +57,73 @@ A Step-by-Step Guide to Pass Play Integrity
 4. `TrickyStore`
 5. `Tricky Store Addon`
 6. `TSupport Advance` or `Integrity Box` (don't install them in the same time)
-7. In `Tsupport Advance`, the **FP updater** script will run first. If you're new to the configuration or unsure, select "yes" for all options.
+7. In `TSupport Advance`, the **FP updater** script will run first. If you're new to the configuration or unsure, select "yes" for all options.
 
 ### 3. Reboot your device after flashing the modules.
 
-## Configuring Tricky Store
+### 4. Hiding Magisk and Root (for Magisk users only)
 
-### With TSupport Advance
+- Go to `Magisk` settings.
+- Click on `Hide the Magisk app`.
+- Select `Configure DenyList`.
+- Check `Google Play Services`and `Google Play Store`.
+- In the future, check any app that requires hiding root here.
 
-After rebooting:
+### Required if you installed TSupport Advance
 
-- Open **Magisk**.
 - Click on **Actions**.
+1. Getting fingerprint:
+- Select **Fprint Updater**.
+- Select **Yes** for **SpoofVendingSDK**
+2. Getting keybox:
 - Select **EBox Updater**.
 - Let it set a **Keybox** for you.
 - Select "yes" to all options if you're unsure about what you need to do.
 
+## Configuring Tricky Store (for the Keybox)
+
+### With Tricky Addon (Easy)
+
+- Update the **keybox** and the **target list** using `Tricky Store Addon` in `KSUWebUI`.
+- For apps, check them and click on `Save`.
+- For keybox, click on the menu button next to the search bar and click on `Custom keybox`.
+
 ### Manually
 
-> Only required if you didn't install **TSupport Advance** or **Integrity Box**.
-
-1. Use a file manager that supports root file operations like **ZArchiver** or **MT Manager**
-2. Navigate to the path:
-
+- Modify `target.txt` and `keybox.xml` files in that directory:
    ```
    /data/adb/tricky_store
    ```
-3. Replace or edit the following files:
-
-   * `target.txt`
-   * `keybox.xml`
-
-### Alternaltive method
-
-- Update the **keybox** and the **target list** using `Tricky Store Addon` in `KSUWebUI`
-
-> You must put a **valid keybox** or at least one that can get you **device integrity**, like the **AOSP keybox**.
-> For the **target file**, you can customize it using a text editor or **KSUWebUI**.
 
 ## PIF Manual Inject
 
 - If you can't get at least **Basic integrity**, try the `PIF Manual Inject` module, here are the steps:
 1. Install the **module**
 2. In `KSUWebUI`, choose `Play Integrity Fix [INJECT]`.
-3. Turn on `Spoof sdk version to Play Store`
-4. You can also turn on other **spoof** options, but you don't have to.
+3. Click on `Fetch pif.json`
+4. Turn on `Spoof sdk version to Play Store`
+5. You can also turn on other **spoof** options, but you don't have to.
 
----
+## Tweaking Play Store (Credits to [Yuri](https://t.me/yuriiroot))
 
-## Check Integrity Status
+* Still no integrity? Try this method, and make sure to keep everything you've already done.
+* There are 2 methods here: 
+- Downgrading `Play Store` to something below **v46**.
+- Installing `Play Store Mod`.
+* You can try both of them.
 
-1. Open the **Play Integrity API Checker** app.
-2. Tap **"Check"**.
-3. Wait for the results.
+### Requirements
 
-You should pass:
+* [LSPosed](https://github.com/mywalkb/LSPosed_mod/releases/tag/v1.9.3_mod)
+* [CorePatch](https://t.me/yuriiarchives/102)
+* [Play Store Mod](https://t.me/yuriiarchives/111) - [VirusTotal](https://www.virustotal.com/gui/file/0c52c45a16957467d38d65f30564856ffbf1a4b52f61b7200105215b2998eada)
+* [MT Manager](https://t.me/yuriiarchives/103)
 
-* ✅ **Basic Integrity**
-* ✅ **Device Integrity**
-* ✅ **Strong Integrity** *(only with a valid keybox)*
+### Steps
 
----
-
-> ⚠️ **Note:**
-> The `keybox.xml` file can be revoked by Google at any time.
-> You’ll need to:
-> * Update it periodically
-> * Recheck your Play Integrity status regularly
+- Install `LSPosed` module.
+- Restart your phone.
+- Install `CorePatch` apk.
+- Tick all options in `CorePatch` Inside `LSPosed`.
+- Restart your phone.
+- Install `Play Store` from `MT Manager` (The older or the mod version).
