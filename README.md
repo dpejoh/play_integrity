@@ -11,9 +11,11 @@ A Step-by-Step Guide to Pass Play Integrity
 
 ## Very Important To Know
 
-- A **valid keybox** is very hard to find. A few people might try to sell them, but most are **scammers** or they'll sell you a leaked one that Google quickly blocks. So, to get integrity now, you usually need to use **spoofing**. You can do this with `PIF Inject`, `TSupport Advance`, or **manually**. Just know that spoofing doesn't always guarantee any type of integrity. Sometimes you might get **Basic** and other times **Strong**, even with the same setup. You'll likely need to try many times until it works.
+- A **valid keybox** is very hard to find. A few people might try to sell them, but most are **scammers** or they'll sell you a leaked one that Google quickly blocks, and you can find those leaked keyboxes on **Telegram groups**
 
-- Some people suggest changing your **Play Store** to an older version (below v46) or using a modified one. I don't recommend this. You can't know if a modded version is safe or not. If you still want to try these methods, be very careful because there are risks. For more info, you might want to check out [Yuri's Telegram channel](https://t.me/yuriiroot).
+- Without a **valid keybox**, you usually need to use **spoofing**. You can do this with `PIF Inject`, `TSupport Advance`, or **manually**. Just know that spoofing doesn't always guarantee any type of integrity. Sometimes you might get **Basic** and other times **Strong**, even with the same setup. You'll likely need to try many times until it works.
+
+- Some people suggest changing your **Play Store** to an older version (below v46) or using a modified one. I don't recommend this from the first time. And you can't know if a modded version is safe or not. If you still want to try these methods, be very careful because there are risks. I've tested the Modded version by [Yuri](https://t.me/yuriiroot) and it's safe
 
 ---
 
@@ -36,7 +38,6 @@ A Step-by-Step Guide to Pass Play Integrity
 
 ### Optional
 * [BetterKnownInstalled](https://github.com/Pixel-Props/BetterKnownInstalled) - For solving **UNKNOWN_INSTALLED** issue
-* [Integrity Box](https://github.com/MeowDump/Integrity-Box) – It provides a **valid keybox**
 
 ### Apps
 
