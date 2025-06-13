@@ -29,10 +29,10 @@ A Step-by-Step Guide to Pass Play Integrity
 
 * [Zygisk Next](https://github.com/Dr-TSNG/ZygiskNext/releases)
 * ~~[PIF (Play Integrity Fix)](https://github.com/chiteroman/PlayIntegrityFix/releases)~~ - **Discontinuted**
-* [PIF Fork](https://github.com/osm0sis/PlayIntegrityFork)
+* [PIF Fork](https://github.com/osm0sis/PlayIntegrityFork/releases)
 * [PIF Inject Manual](https://github.com/KOWX712/PlayIntegrityFix/releases) For turning on **SpoofVendingSDK**
 * [TrickyStore](https://github.com/5ec1cff/TrickyStore/releases)
-* [Tricky Store Addon](https://github.com/KOWX712/Tricky-Addon-Update-Target-List) - Required for **KSU**, helpful for **Magisk**
+* [Tricky Store Addon](https://github.com/KOWX712/Tricky-Addon-Update-Target-List/releases) - Required for **KSU**, helpful for **Magisk**
 * [TSupport Advance](https://t.me/CitraIntegrityTrick) - sets up a **fingerprint** and a **keybox** and some other stuff for you. However, if it doesn't work, you'll need to find a different keybox.
 
 ### Optional
@@ -41,7 +41,7 @@ A Step-by-Step Guide to Pass Play Integrity
 ### Apps
 
 * [Play Integrity API Checker](https://play.google.com/store/apps/details?id=gr.nikolasspyr.integritycheck&hl=en)
-* [KSUWebUI](https://github.com/5ec1cff/KsuWebUIStandalone) - For `TS Addon`
+* [KSUWebUI](https://github.com/5ec1cff/KsuWebUIStandalone/releases) - For `TS Addon`
 
 ---
 
