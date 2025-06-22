@@ -32,10 +32,11 @@ A Step-by-Step Guide to Pass Play Integrity
 * [PIF Fork](https://github.com/osm0sis/PlayIntegrityFork/releases)
 * [PIF Inject Manual](https://github.com/KOWX712/PlayIntegrityFix/releases) For turning on **SpoofVendingSDK**
 * [TrickyStore](https://github.com/5ec1cff/TrickyStore/releases)
-* [Tricky Store Addon](https://github.com/KOWX712/Tricky-Addon-Update-Target-List/releases) - Required for **KSU**, helpful for **Magisk**
+* [Tricky Store Addon](https://github.com/KOWX712/Tricky-Addon-Update-Target-List/releases)
 * [TSupport Advance](https://t.me/CitraIntegrityTrick) - sets up a **fingerprint** and a **keybox** and some other stuff for you. However, if it doesn't work, you'll need to find a different keybox.
 
 ### Optional
+* [YuriKey](https://github/com/dpejoh/yurikey) - For a valid keybox (my module)
 * [BetterKnownInstalled](https://github.com/Pixel-Props/BetterKnownInstalled) - For solving **UNKNOWN_INSTALLED** issue
 
 ### Apps
